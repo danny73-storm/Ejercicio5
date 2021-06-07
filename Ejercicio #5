@@ -1,0 +1,17 @@
+Ejercicio #5
+
+Algoritmo MayoresMenores
+	Escribir 'Ingrese la cantidad de edades a evaluar'
+	Leer N
+	M <- Cantidad
+	Para i<-N Hasta 1 Con Paso -1 Hacer
+		Escribir 'Ingrese las edades de las mujeres y de los hombres: '
+		Leer M
+		Si M>=18 Entonces
+			Cantidad <- i
+		FinSi
+		Num <- N-i
+	FinPara
+	Escribir 'La cantidad de mujeres mayores de edad son: ',Num
+	Escribir 'La cantidad de hombres menores de edad son: ',Cantidad
+FinAlgoritmo
